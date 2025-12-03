@@ -1,0 +1,17 @@
+@import "bootstrap/scss/bootstrap";
+
+.red-button {
+	background-color: #D1001F;
+	color: #FFFFFF;
+	font-size: 32px;
+	height: 50%;
+	width: 100%;
+}
+
+.red-button:hover {
+	background-color: #C30010;
+}
+
+.modal-header {
+	background-color: #F8F9Fa;
+}

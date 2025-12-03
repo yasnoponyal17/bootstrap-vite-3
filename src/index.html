@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap + Vite. 3rd Stage</title>
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+		<div class='container-fluid mt-4'>
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-8">
+					<div class="d-flex justify-content-center align-items-center" style='height: 100vh'>
+						<button type='button' class='btn red-button' data-bs-toggle='modal' data-bs-target='#timeModal'>Показать время</button>
+					</div>
+				</div>
+				<div class="col-2"></div>
+			</div>
+		</div>
+		<div class='modal fade' id='timeModal' tabindex='-1' aria-labelledby='timeModalLabel' aria-hidden='true'>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="timeModalLabel">Сергей Ефимов</h5>
+						<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Закрыть'></button>
+					</div>
+					<div class="modal-body text-center">
+						<h3 id="currentDataTime">Загрузка времени... </h3>
+					</div>
+					<div class="modal-footer">
+						<button type='button' class='btn btn-secondary' data-bs-dismiss="modal">Закрыть</button>
+					</div>
+				</div>
+			</div>
+		</div>
+    <!-- <div class="container py-4 px-3 mx-auto">
+      <h1 id='clock'>H--.--.- --:--:--</h1>
+			<p>Локальное время: формат <code>dd.LL.y HH:mm:ss</code></p>
+      <button class="btn btn-primary">Primary button</button>
+    </div> -->
+  </body>
+</html>
